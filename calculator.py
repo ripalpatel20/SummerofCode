@@ -17,10 +17,9 @@ print(2**8)
 print(1<<9)
 
 print("------#How many hours in year?------")
-#How many hours in year?
 print(365*24)
 
-#How many minutes in decade?
+
 print("------How many minutes in decade?------")
 print(10*365*24*60)
 
@@ -28,22 +27,7 @@ print("------How many seconds are you old?------")
 print(30*365*24*60*60)
 
 
-print("------BIG NUMBER------")
-print("Maximum positive value for a 32-bit signed binary integer")
-a = int('0x7FFFFFFF', 16) 
-print (a)
-n=10
-for i in range(n):
-    a=aa
-    print(i,": ", str(a), "------------" ) 
-    print("")
-    time.sleep(1)
-print(" maximum positive value for a 64-bit signed binary integer")
-
-b = int('0x7FFFFFFFFFFFFFFF', 16) 
-m=8
-for i in range(m):
-    b=bb
-    print(i,": ", str(b), "------------" ) 
-    print("")
-    time.sleep(1)
+print("------32-bit system to timeout in days?------")
+print((2**32-1)/100/60/60/24)
+print("------64-bit system to timeout in days?------")
+print((2**64-1)/100/60/60/24)
